@@ -1,6 +1,7 @@
 /* 
   Connect as (U)ser postgres (superuser) to the maintence (d)atabase postgres:
-  psql -h localhost -U postgres -d postgres 
+  Interactive, might require being linux user postgres: psql -h localhost -U postgres -d postgres 
+  Non-interactive: sudo -u postgres psql -f 020_create_database_env_db_V001.sql
 */
 
 /* Environmental database env_db */
