@@ -9,7 +9,7 @@ conda create -n geo4 -c conda-forge python=3.9
 conda activate geo4
 
 conda install -c conda-forge jupyterlab pandas numpy matplotlib scipy
-geopandas osgeo
+conda install -c conda-forge geopandas osgeo shapely
 sqlite3 psycopg2 sqlalchemy sqlmagic
 bs4 wget ftplib
 ```
