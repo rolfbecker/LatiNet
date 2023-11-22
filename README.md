@@ -5,11 +5,14 @@ We use the Anaconda Python suite.
 
 ```
 # conda env remove -n geo4
-conda create -n geo4 -c conda-forge python=3.9
+conda create -n geo4 -c python=3.9
 conda activate geo4
 
-conda install -c conda-forge jupyterlab pandas numpy matplotlib scipy
-conda install -c conda-forge geopandas osgeo shapely
-conda install -c conda-forge sqlite3 psycopg2 sqlalchemy sqlmagic
-conda install -c conda-forge bs4 wget ftplib
+conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4
+
+conda install jupyterlab pandas numpy matplotlib scipy
+conda install geopandas pyproj shapely fiona
+conda install psycopg2 sqlalchemy sqlmagic
+conda install bs4 python-wget ftplib requests
+conda install -c 
 ```
