@@ -5,10 +5,10 @@ We use the Anaconda Python suite.
 
 ```
 # conda env remove -n geo4
-conda create -n geo4 -c python=3.9
+conda create -n geo4 python=3
 conda activate geo4
 
-conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4
+conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4 seaborn
 
 conda install jupyterlab pandas numpy matplotlib scipy
 conda install geopandas pyproj shapely fiona
