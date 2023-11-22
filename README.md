@@ -4,5 +4,11 @@ Repository to support activities of the LatiNet exchange program of the Rhine-Wa
 We use the Anaconda Python suite.
 
 ```
+# conda env remove -n geo4
+
 conda create -n geo4 -c conda-forge python=3
+
+conda activate geo4
+
+
 ```
