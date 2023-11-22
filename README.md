@@ -5,7 +5,8 @@ We use the Anaconda Python suite.
 
 ```
 # conda env remove -n geo4
-conda create -n geo4 python=3
+# fiona has an issue with python >= 3.10. fiona is needed by geopandas.
+conda create -n geo4 python=3.9
 conda activate geo4
 
 conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4 seaborn tqdm
