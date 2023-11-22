@@ -8,6 +8,8 @@ We use the Anaconda Python suite.
 conda create -n geo4 -c python=3.9
 conda activate geo4
 
+conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4
+
 conda install jupyterlab pandas numpy matplotlib scipy
 conda install geopandas pyproj shapely fiona
 conda install psycopg2 sqlalchemy sqlmagic
