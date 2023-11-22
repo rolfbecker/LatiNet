@@ -11,5 +11,5 @@ conda activate geo4
 conda install -c conda-forge jupyterlab pandas numpy matplotlib scipy
 conda install -c conda-forge geopandas osgeo shapely
 conda install -c conda-forge sqlite3 psycopg2 sqlalchemy sqlmagic
-conda install -c conda-forge bs4 wget ftplib
+conda install -c conda-forge bs4 python-wget ftplib
 ```
