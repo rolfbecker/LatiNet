@@ -5,7 +5,7 @@ We use the Anaconda Python suite.
 
 ```
 # conda env remove -n geo4
-conda create -n geo4 -c conda-forge python=3
+conda create -n geo4 -c conda-forge python=3.9
 conda activate geo4
 
 conda install -c conda-forge jupyterlab pandas numpy matplotlib scipy
