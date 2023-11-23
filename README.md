@@ -14,7 +14,7 @@ conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalche
 
 conda install jupyterlab pandas numpy matplotlib scipy
 conda install seaborn
-conda install geopandas pyproj shapely fiona rastrio
+conda install geopandas pyproj shapely fiona rasterio
 conda install psycopg2 sqlalchemy ipython-sql
 conda install bs4 ftplib requests
 conda install -c conda-forge python-wget
