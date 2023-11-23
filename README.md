@@ -29,4 +29,5 @@ Clein's version with sql magic:
 conda install -y -c conda-forge geopandas
 conda install -y jupysql -c conda-forge
 conda install -y -c conda-forge jupyterlab
+conda install -y -c conda-forge python-wget
 ```
