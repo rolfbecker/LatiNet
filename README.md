@@ -22,4 +22,5 @@ conda install -y -c conda-forge python-wget
 Clein's version:
 ```
 conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4 seaborn tqdm
+conda install -y -c conda-forge python-wget
 ```
