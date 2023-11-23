@@ -16,6 +16,7 @@ conda install -y geopandas pyproj shapely fiona rasterio
 conda install -y psycopg2 sqlalchemy ipython-sql
 conda install -y bs4 ftplib requests tqdm
 conda install -y -c conda-forge python-wget
+
 ```
 
 Clein's version:
