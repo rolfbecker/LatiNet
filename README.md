@@ -10,12 +10,15 @@ conda create -n geo4 python=3.9
 
 conda activate geo4
 
-conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4 seaborn tqdm
+conda install -y jupyterlab pandas numpy matplotlib scipy
+conda install -y seaborn
+conda install -y geopandas pyproj shapely fiona rasterio
+conda install -y psycopg2 sqlalchemy ipython-sql
+conda install -y bs4 ftplib requests tqdm
+conda install -y -c conda-forge python-wget
+```
 
-conda install jupyterlab pandas numpy matplotlib scipy
-conda install seaborn
-conda install geopandas pyproj shapely fiona rasterio
-conda install psycopg2 sqlalchemy ipython-sql
-conda install bs4 ftplib requests tqdm
-conda install -c conda-forge python-wget
+Clein's version:
+```
+conda install jupyterlab pandas geopandas shapely fiona pyproj rasterio sqlalchemy psycopg2 ipython-sql bs4 seaborn tqdm
 ```
