@@ -17,5 +17,7 @@ tmp/
 
 data/OpenGeodata.NRW/OpenHygrisC/*
 
+OpenHyPE2/data/*
+warming_stripes/dwd_files/*
 #!gdms0100_DWD_NRW_soln
 
